@@ -1,0 +1,179 @@
+\hypertarget{class_dummy_classifier}{}\doxysection{Dummy\+Classifier Class Reference}
+\label{class_dummy_classifier}\index{DummyClassifier@{DummyClassifier}}
+
+
+this class inherits the \mbox{\hyperlink{class_classifier}{Classifier}} class.  
+
+
+
+
+{\ttfamily \#include \char`\"{}Dummy\+Classifier.\+h\char`\"{}}
+
+Inheritance diagram for Dummy\+Classifier\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_dummy_classifier}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dummy_classifier_a4abbca432878f74e394cf3bec0572da9}{Dummy\+Classifier}} ()
+\begin{DoxyCompactList}\small\item\em a constructor for the class \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_dummy_classifier_aea95c11fb74e09bd6cacb913b00ce584}{train}} (std\+::string)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_dummy_classifier_aea95c11fb74e09bd6cacb913b00ce584}{train()}} function is defined here \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_dummy_classifier_ae4986df2b7136c7901ef52addf6ac240}{predict}} (std\+::string)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_dummy_classifier_ae4986df2b7136c7901ef52addf6ac240}{predict()}} function is defined here \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_dummy_classifier_a39f2dc134b0470b5fc49157ff00d2767}{predict}} (double, double, double)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_dummy_classifier_ae4986df2b7136c7901ef52addf6ac240}{predict()}} function is defined here \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_point}{Point}}}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{class_point_a8de35a6098cdd7267b4167776da83da6}{getX}} ()
+\begin{DoxyCompactList}\small\item\em a getter function for X coordinate \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_point_aa278c8bcb8aeb4101023a4baf473b547}{getY}} ()
+\begin{DoxyCompactList}\small\item\em a getter function for Y coordinate \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_point_a7c43742b167f182e08cc1b9aac9661e9}\label{class_point_a7c43742b167f182e08cc1b9aac9661e9}} 
+double {\bfseries getZ} ()
+\item 
+int \mbox{\hyperlink{class_point_a009de357788c1d753f8c72d2f33c7bb2}{get\+Label}} ()
+\begin{DoxyCompactList}\small\item\em a getter function for Label coordinate \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_a6b77c1646f6cc7dd248835a14a2702a5}{setX}} (double)
+\begin{DoxyCompactList}\small\item\em a setter function for X coordinate \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_a0b2df4a0f4fe4a11b1540d6486da360c}{setY}} (double)
+\begin{DoxyCompactList}\small\item\em a setter function for Y coordinate \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_a9b804cf5232c1f3c813bfb37a093adde}{setZ}} (double)
+\begin{DoxyCompactList}\small\item\em a setter function for Z coordinate \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_ab04248a9f10fda4955e1934d8698d2a3}{set\+Label}} (int)
+\begin{DoxyCompactList}\small\item\em a setter function for label coordinate \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this class inherits the \mbox{\hyperlink{class_classifier}{Classifier}} class. 
+
+This class defines the functions of the \mbox{\hyperlink{class_classifier}{Classifier}} class. It is basically an algorithm like nearest neighbour \begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 
+\end{DoxyDate}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_dummy_classifier_a4abbca432878f74e394cf3bec0572da9}\label{class_dummy_classifier_a4abbca432878f74e394cf3bec0572da9}} 
+\index{DummyClassifier@{DummyClassifier}!DummyClassifier@{DummyClassifier}}
+\index{DummyClassifier@{DummyClassifier}!DummyClassifier@{DummyClassifier}}
+\doxysubsubsection{\texorpdfstring{DummyClassifier()}{DummyClassifier()}}
+{\footnotesize\ttfamily Dummy\+Classifier\+::\+Dummy\+Classifier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+a constructor for the class 
+
+this is the default constructor for \mbox{\hyperlink{class_dummy_classifier}{Dummy\+Classifier}} class \begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 ~\newline
+ 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_dummy_classifier_a39f2dc134b0470b5fc49157ff00d2767}\label{class_dummy_classifier_a39f2dc134b0470b5fc49157ff00d2767}} 
+\index{DummyClassifier@{DummyClassifier}!predict@{predict}}
+\index{predict@{predict}!DummyClassifier@{DummyClassifier}}
+\doxysubsubsection{\texorpdfstring{predict()}{predict()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Dummy\+Classifier\+::predict (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_dummy_classifier_ae4986df2b7136c7901ef52addf6ac240}{predict()}} function is defined here 
+
+
+\begin{DoxyParams}{Parameters}
+{\em the} & first parameter is double which is the x coordinate \\
+\hline
+{\em the} & second parameter is double which is the y coordinate \\
+\hline
+{\em the} & third parameter is double which is the z coordinate\\
+\hline
+\end{DoxyParams}
+\mbox{\hyperlink{class_dummy_classifier_ae4986df2b7136c7901ef52addf6ac240}{predict()}} function which is inherited from classifier is defined here. But since this class is not implemented the function is not implemented as well \begin{DoxyReturn}{Returns}
+void (nothing) 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 ~\newline
+ 
+\end{DoxyDate}
+
+
+Implements \mbox{\hyperlink{classclassifier}{classifier}}.
+
+\mbox{\Hypertarget{class_dummy_classifier_ae4986df2b7136c7901ef52addf6ac240}\label{class_dummy_classifier_ae4986df2b7136c7901ef52addf6ac240}} 
+\index{DummyClassifier@{DummyClassifier}!predict@{predict}}
+\index{predict@{predict}!DummyClassifier@{DummyClassifier}}
+\doxysubsubsection{\texorpdfstring{predict()}{predict()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Dummy\+Classifier\+::predict (\begin{DoxyParamCaption}\item[{std\+::string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_dummy_classifier_ae4986df2b7136c7901ef52addf6ac240}{predict()}} function is defined here 
+
+\mbox{\hyperlink{class_dummy_classifier_ae4986df2b7136c7901ef52addf6ac240}{predict()}} function which is inherited from classifier is defined here. But since this class is not implemented the function is not implemented as well 
+\begin{DoxyParams}{Parameters}
+{\em takes} & a string as parameter. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void (nothing) 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 ~\newline
+ 
+\end{DoxyDate}
+
+
+Implements \mbox{\hyperlink{classclassifier}{classifier}}.
+
+\mbox{\Hypertarget{class_dummy_classifier_aea95c11fb74e09bd6cacb913b00ce584}\label{class_dummy_classifier_aea95c11fb74e09bd6cacb913b00ce584}} 
+\index{DummyClassifier@{DummyClassifier}!train@{train}}
+\index{train@{train}!DummyClassifier@{DummyClassifier}}
+\doxysubsubsection{\texorpdfstring{train()}{train()}}
+{\footnotesize\ttfamily void Dummy\+Classifier\+::train (\begin{DoxyParamCaption}\item[{std\+::string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_dummy_classifier_aea95c11fb74e09bd6cacb913b00ce584}{train()}} function is defined here 
+
+\mbox{\hyperlink{class_dummy_classifier_aea95c11fb74e09bd6cacb913b00ce584}{train()}} function which is inherited from classifier is defined here. But since this class is not implemented the function is not implemented as well 
+\begin{DoxyParams}{Parameters}
+{\em takes} & a string as parameter. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void (nothing) 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 ~\newline
+ 
+\end{DoxyDate}
+
+
+Implements \mbox{\hyperlink{classclassifier}{classifier}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/sudha/source/repos/\+Second Sem/\+New folder/\+Assignments/\+Lab08\+\_\+09/\+Lab08\+\_\+09/\+Program/\mbox{\hyperlink{_dummy_classifier_8h}{Dummy\+Classifier.\+h}}\item 
+C\+:/\+Users/sudha/source/repos/\+Second Sem/\+New folder/\+Assignments/\+Lab08\+\_\+09/\+Lab08\+\_\+09/\+Program/Dummy\+Classifier.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,258 @@
+\hypertarget{class_n_n_classifier}{}\doxysection{NNClassifier Class Reference}
+\label{class_n_n_classifier}\index{NNClassifier@{NNClassifier}}
+
+
+this class inherits the \mbox{\hyperlink{class_classifier}{Classifier}} class.  
+
+
+
+
+{\ttfamily \#include \char`\"{}NNClassifier.\+h\char`\"{}}
+
+Inheritance diagram for NNClassifier\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_n_n_classifier}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_n_n_classifier_aabbf0c05f49549bffadd139979c48203}{NNClassifier}} ()
+\begin{DoxyCompactList}\small\item\em a constructor for the class \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_n_n_classifier_a9e4082c8888d47c75fe576be3edc9972}{decide\+Orientation\+Name}} (int)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_n_n_classifier_a9e4082c8888d47c75fe576be3edc9972}{decide\+Orientation\+Name()}} function is defined here \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_n_n_classifier_a1d47baf8c66be9d0f682d3caaa7c3796}{train}} (std\+::string)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_n_n_classifier_a1d47baf8c66be9d0f682d3caaa7c3796}{train()}} function is defined here \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_n_n_classifier_a9dfa33ec3d1e60d5e1b3ec40c5b74a3c}{predict}} (std\+::string)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_n_n_classifier_a9dfa33ec3d1e60d5e1b3ec40c5b74a3c}{predict()}} function is defined here \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_n_n_classifier_a2441f53f25880517d00e4e5bf5656cc0}{predict}} (double x, double y, double z)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_n_n_classifier_a9dfa33ec3d1e60d5e1b3ec40c5b74a3c}{predict()}} function is defined here \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_n_n_classifier_ae20cd22318266d64db0603e03f11cf47}{nearest\+Neighbour}} (\mbox{\hyperlink{struct_orientation}{ORIENTATION}} $\ast$)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_n_n_classifier_ae20cd22318266d64db0603e03f11cf47}{nearest\+Neighbour()}} function is defined here \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_orientation}{ORIENTATION}} $\ast$ \mbox{\hyperlink{class_n_n_classifier_a98b47534ce6229a5d38adf700b05fa2b}{get\+Ptr\+To\+Head}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_n_n_classifier_a98b47534ce6229a5d38adf700b05fa2b}{get\+Ptr\+To\+Head()}} function is defined here \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_n_n_classifier_a9d50b61ec4062a4307daeb6701a2dc73}\label{class_n_n_classifier_a9d50b61ec4062a4307daeb6701a2dc73}} 
+{\bfseries $\sim$\+NNClassifier} ()
+\begin{DoxyCompactList}\small\item\em destructor is used to clean dynamically allocated memory \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_point}{Point}}}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{class_point_a8de35a6098cdd7267b4167776da83da6}{getX}} ()
+\begin{DoxyCompactList}\small\item\em a getter function for X coordinate \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_point_aa278c8bcb8aeb4101023a4baf473b547}{getY}} ()
+\begin{DoxyCompactList}\small\item\em a getter function for Y coordinate \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_point_a7c43742b167f182e08cc1b9aac9661e9}\label{class_point_a7c43742b167f182e08cc1b9aac9661e9}} 
+double {\bfseries getZ} ()
+\item 
+int \mbox{\hyperlink{class_point_a009de357788c1d753f8c72d2f33c7bb2}{get\+Label}} ()
+\begin{DoxyCompactList}\small\item\em a getter function for Label coordinate \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_a6b77c1646f6cc7dd248835a14a2702a5}{setX}} (double)
+\begin{DoxyCompactList}\small\item\em a setter function for X coordinate \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_a0b2df4a0f4fe4a11b1540d6486da360c}{setY}} (double)
+\begin{DoxyCompactList}\small\item\em a setter function for Y coordinate \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_a9b804cf5232c1f3c813bfb37a093adde}{setZ}} (double)
+\begin{DoxyCompactList}\small\item\em a setter function for Z coordinate \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_point_ab04248a9f10fda4955e1934d8698d2a3}{set\+Label}} (int)
+\begin{DoxyCompactList}\small\item\em a setter function for label coordinate \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this class inherits the \mbox{\hyperlink{class_classifier}{Classifier}} class. 
+
+This class defines the functions of the \mbox{\hyperlink{class_classifier}{Classifier}} class. It uses the algorithm nearest neighbour \begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 
+\end{DoxyDate}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_n_n_classifier_aabbf0c05f49549bffadd139979c48203}\label{class_n_n_classifier_aabbf0c05f49549bffadd139979c48203}} 
+\index{NNClassifier@{NNClassifier}!NNClassifier@{NNClassifier}}
+\index{NNClassifier@{NNClassifier}!NNClassifier@{NNClassifier}}
+\doxysubsubsection{\texorpdfstring{NNClassifier()}{NNClassifier()}}
+{\footnotesize\ttfamily NNClassifier\+::\+NNClassifier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+a constructor for the class 
+
+this is the default constructor for \mbox{\hyperlink{class_n_n_classifier}{NNClassifier}} class \begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 ~\newline
+ 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_n_n_classifier_a9e4082c8888d47c75fe576be3edc9972}\label{class_n_n_classifier_a9e4082c8888d47c75fe576be3edc9972}} 
+\index{NNClassifier@{NNClassifier}!decideOrientationName@{decideOrientationName}}
+\index{decideOrientationName@{decideOrientationName}!NNClassifier@{NNClassifier}}
+\doxysubsubsection{\texorpdfstring{decideOrientationName()}{decideOrientationName()}}
+{\footnotesize\ttfamily std\+::string NNClassifier\+::decide\+Orientation\+Name (\begin{DoxyParamCaption}\item[{int}]{nearest\+Label }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_n_n_classifier_a9e4082c8888d47c75fe576be3edc9972}{decide\+Orientation\+Name()}} function is defined here 
+
+\mbox{\hyperlink{class_n_n_classifier_a9e4082c8888d47c75fe576be3edc9972}{decide\+Orientation\+Name()}} function which is inherited from classifier is defined here. It just defines the orientation based on the label 
+\begin{DoxyParams}{Parameters}
+{\em takes} & an integer as parameter. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 ~\newline
+ 
+\end{DoxyDate}
+\mbox{\Hypertarget{class_n_n_classifier_a98b47534ce6229a5d38adf700b05fa2b}\label{class_n_n_classifier_a98b47534ce6229a5d38adf700b05fa2b}} 
+\index{NNClassifier@{NNClassifier}!getPtrToHead@{getPtrToHead}}
+\index{getPtrToHead@{getPtrToHead}!NNClassifier@{NNClassifier}}
+\doxysubsubsection{\texorpdfstring{getPtrToHead()}{getPtrToHead()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_orientation}{ORIENTATION}} $\ast$ NNClassifier\+::get\+Ptr\+To\+Head (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_n_n_classifier_a98b47534ce6229a5d38adf700b05fa2b}{get\+Ptr\+To\+Head()}} function is defined here 
+
+\mbox{\hyperlink{class_n_n_classifier_a98b47534ce6229a5d38adf700b05fa2b}{get\+Ptr\+To\+Head()}} function gets the ptr\+To\+Head attribute for us \begin{DoxyReturn}{Returns}
+pointer of type ORIENTATION 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 ~\newline
+ 
+\end{DoxyDate}
+\mbox{\Hypertarget{class_n_n_classifier_ae20cd22318266d64db0603e03f11cf47}\label{class_n_n_classifier_ae20cd22318266d64db0603e03f11cf47}} 
+\index{NNClassifier@{NNClassifier}!nearestNeighbour@{nearestNeighbour}}
+\index{nearestNeighbour@{nearestNeighbour}!NNClassifier@{NNClassifier}}
+\doxysubsubsection{\texorpdfstring{nearestNeighbour()}{nearestNeighbour()}}
+{\footnotesize\ttfamily double NNClassifier\+::nearest\+Neighbour (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_orientation}{ORIENTATION}} $\ast$}]{n }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_n_n_classifier_ae20cd22318266d64db0603e03f11cf47}{nearest\+Neighbour()}} function is defined here 
+
+\mbox{\hyperlink{class_n_n_classifier_ae20cd22318266d64db0603e03f11cf47}{nearest\+Neighbour()}} function determines the distance between the neighbours or points 
+\begin{DoxyParams}{Parameters}
+{\em takes} & a pointer to a custom datatype named ORIENTATION. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 ~\newline
+ 
+\end{DoxyDate}
+\mbox{\Hypertarget{class_n_n_classifier_a2441f53f25880517d00e4e5bf5656cc0}\label{class_n_n_classifier_a2441f53f25880517d00e4e5bf5656cc0}} 
+\index{NNClassifier@{NNClassifier}!predict@{predict}}
+\index{predict@{predict}!NNClassifier@{NNClassifier}}
+\doxysubsubsection{\texorpdfstring{predict()}{predict()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void NNClassifier\+::predict (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_n_n_classifier_a9dfa33ec3d1e60d5e1b3ec40c5b74a3c}{predict()}} function is defined here 
+
+
+\begin{DoxyParams}{Parameters}
+{\em the} & first parameter is double which is the x coordinate \\
+\hline
+{\em the} & second parameter is double which is the y coordinate \\
+\hline
+{\em the} & third parameter is double which is the z coordinate\\
+\hline
+\end{DoxyParams}
+\mbox{\hyperlink{class_n_n_classifier_a9dfa33ec3d1e60d5e1b3ec40c5b74a3c}{predict()}} function which is inherited from classifier is defined here. This predicts the result based on the user data it received \begin{DoxyReturn}{Returns}
+void (nothing) 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 ~\newline
+ 
+\end{DoxyDate}
+
+
+Implements \mbox{\hyperlink{classclassifier}{classifier}}.
+
+\mbox{\Hypertarget{class_n_n_classifier_a9dfa33ec3d1e60d5e1b3ec40c5b74a3c}\label{class_n_n_classifier_a9dfa33ec3d1e60d5e1b3ec40c5b74a3c}} 
+\index{NNClassifier@{NNClassifier}!predict@{predict}}
+\index{predict@{predict}!NNClassifier@{NNClassifier}}
+\doxysubsubsection{\texorpdfstring{predict()}{predict()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void NNClassifier\+::predict (\begin{DoxyParamCaption}\item[{std\+::string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_n_n_classifier_a9dfa33ec3d1e60d5e1b3ec40c5b74a3c}{predict()}} function is defined here 
+
+\mbox{\hyperlink{class_n_n_classifier_a9dfa33ec3d1e60d5e1b3ec40c5b74a3c}{predict()}} function which is inherited from classifier is defined here. This is used to predict the data based on the training it received 
+\begin{DoxyParams}{Parameters}
+{\em takes} & a string as parameter. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void (nothing) 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 ~\newline
+ 
+\end{DoxyDate}
+
+
+Implements \mbox{\hyperlink{classclassifier}{classifier}}.
+
+\mbox{\Hypertarget{class_n_n_classifier_a1d47baf8c66be9d0f682d3caaa7c3796}\label{class_n_n_classifier_a1d47baf8c66be9d0f682d3caaa7c3796}} 
+\index{NNClassifier@{NNClassifier}!train@{train}}
+\index{train@{train}!NNClassifier@{NNClassifier}}
+\doxysubsubsection{\texorpdfstring{train()}{train()}}
+{\footnotesize\ttfamily void NNClassifier\+::train (\begin{DoxyParamCaption}\item[{std\+::string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{class_n_n_classifier_a1d47baf8c66be9d0f682d3caaa7c3796}{train()}} function is defined here 
+
+\mbox{\hyperlink{class_n_n_classifier_a1d47baf8c66be9d0f682d3caaa7c3796}{train()}} function which is inherited from classifier is defined here. This is used to train our program 
+\begin{DoxyParams}{Parameters}
+{\em takes} & a string as parameter. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void (nothing) 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Sudhan Dahake 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+15/4/2023 ~\newline
+ 
+\end{DoxyDate}
+
+
+Implements \mbox{\hyperlink{classclassifier}{classifier}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/sudha/source/repos/\+Second Sem/\+New folder/\+Assignments/\+Lab08\+\_\+09/\+Lab08\+\_\+09/\+Program/\mbox{\hyperlink{_n_n_classifier_8h}{NNClassifier.\+h}}\item 
+C\+:/\+Users/sudha/source/repos/\+Second Sem/\+New folder/\+Assignments/\+Lab08\+\_\+09/\+Lab08\+\_\+09/\+Program/NNClassifier.\+cpp\end{DoxyCompactItemize}
